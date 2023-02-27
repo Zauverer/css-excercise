@@ -1,0 +1,58 @@
+body{
+    background-color: #333;
+    color: #fff;
+    margin: 0
+}
+
+.border, .outline{
+    background-color: #666;
+    width:80px;
+    padding: 10px 25px;
+    margin: 50px 100px;
+}
+
+.border{
+    border: 2px solid lightcoral;
+}
+
+/* el borde crece hacia afuera, isn moidficar el tamño del contenido */
+.outline{
+    border: 5px solid lightcoral;
+}
+
+.text{
+    text-align: justify;
+}
+
+.block{
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    margin-left:auto;
+    margin-right:auto;
+    /* sirve para que el total del box tenga un ancho, sumando el padding */
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    overflow: auto;
+}
+/*en elemntos en línea no funcionada 
+dar dimensiones como width an heigh*/
+
+.buttons{
+    background-color: steelblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.button{
+    margin-left: 130px;
+    padding: 25px 50px;
+    border: 20px solid red;
+}
+
+.inline{
+    background-color: lightcoral;
+    margin-left: 0px;
+    padding-left: 100px;
+}
